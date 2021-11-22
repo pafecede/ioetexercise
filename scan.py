@@ -2,7 +2,6 @@ import array as arr
 class reader:
     data = []
     def __init__(self,name):
-        # Use a breakpoint in the code line below to debug your script.
         f = open(name, "r")
         for x in f:
             line = x.strip('ï»¿')
