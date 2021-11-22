@@ -1,6 +1,6 @@
 class reader:
     data = []
-    data1=[]
+    data1 = []
 
     def __init__(self, name,name1):
         f = open(name, "r")

@@ -30,7 +30,7 @@ class matching:
         var = scan.reader(file, file1)
         lector = var.data
         lector1 = var.data1
-        self.builder(lector,self.matching)
+        self.builder(lector, self.matching)
         self.builder(lector1, self.matching1)
 
     def builder(self, lector, result):
